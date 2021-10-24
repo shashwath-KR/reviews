@@ -1,4 +1,5 @@
 {
+  "homepage": "https://shashwath-KR.github.io/reviews",
   "name": "reviews",
   "version": "0.1.0",
   "private": true,
@@ -14,6 +15,7 @@
     "web-vitals": "^1.1.1"
   },
   "scripts": {
+    "deploy": "npm run build && gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
