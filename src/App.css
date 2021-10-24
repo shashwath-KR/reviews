@@ -1,0 +1,30 @@
+
+.hr {
+    width: 190px;
+    background-color: coral;
+    height: 4px;
+    margin: auto;
+}
+
+@media screen and (min-width:400px) {
+    .hr {
+        width: 150px;
+    }
+}
+
+.tab {
+    margin: auto;
+    width: 45vw;
+}
+
+@media screen and (min-width: 992px) {
+    .tab {
+        width: 50vw;
+    }
+}
+
+h4 {
+    font-weight: 600;
+    color: rgb(141, 105, 5);
+}
+
